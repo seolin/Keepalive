@@ -1,6 +1,6 @@
 # xiaoenai-ckin
 
-肖恩AI（[free.supxh.xin](https://free.supxh.xin)）免费大模型 API 每日自动签到脚本。
+肖恩AI（[go.toter.me](https://go.toter.me)）免费大模型 API 每日自动签到脚本。
 
 ## 功能
 

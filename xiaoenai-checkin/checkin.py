@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-肖恩AI（free.supxh.xin）每日签到脚本（GitHub Actions 专用）
+肖恩AI（go.toter.me）每日签到脚本（GitHub Actions 专用）
 使用 Cookie 认证，每次运行重新登录，支持多账号。
 
 需要的配置（环境变量）：
@@ -13,6 +13,7 @@
 import os
 import re
 import sys
+import time
 import logging
 from datetime import datetime, timezone, timedelta
 import requests
@@ -20,7 +21,7 @@ import requests
 # ---------------------------------------------------------------------------
 # 日志（北京时间）
 # ---------------------------------------------------------------------------
-BASE_URL = os.getenv("XIAOENAI_BASE_URL") or "https://free.supxh.xin"
+BASE_URL = os.getenv("XIAOENAI_BASE_URL") or "https://go.toter.me"
 ACCOUNTS_ENV = os.getenv("XIAOENAI_ACCOUNTS") or ""
 BJT = timezone(timedelta(hours=8))
 
